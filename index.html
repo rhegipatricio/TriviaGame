@@ -19,19 +19,23 @@
 </head>
 <body>
 
-	<div class="header"></div>
+	<div class="header">
+		<h1>Hey You Guys! Test your knowledge on...</h1>
+	</div>
+
 		<div class="container">
-			<h2>Hey You Guys! Test your knowledge on...</h2>
-				<form id="triviaForm" name="triviaForm">
+			<form id="triviaForm" name="triviaForm" onsubmit="return onSubmit()">
+				<div class="questions">
+				</div>
 
 	<!--Questions-->
 					<p>Who are the villains in the Goonies?</p>
-						<input id="radio" id="multi" name="question1" value="TheFratellis">The Fratellis</br>
-						<input id="radio" id="multi" name="question1" value="TheBoltons">The Boltons</br>
+						<input type="radio" id="multi" name="question1" value="TheFratellis">The Fratellis</br>
+						<input type="radio" id="multi" name="question1" value="TheBoltons">The Boltons</br>
 
 					<p>What is the name of the pirate that inspires Mikey to go look for the treasure?</p>
-						<input id="radio" id="multi" name="question2" value="Blackbeard">Blackbeard</br>
-						<input id="radio" id="multi" name="question2" value="OneEyedWilly">One-Eyed Willy</br>
+						<input type="radio" id="multi" name="question2" value="Blackbeard">Blackbeard</br>
+						<input type="radio" id="multi" name="question2" value="OneEyedWilly">One-Eyed Willy</br>
 
 	</form>
 
