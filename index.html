@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>The Goonies Trivia</title>
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Bootstrap-->
@@ -12,21 +12,28 @@
 	<!--My Css-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--Javascript-->
+	<script src="assets/javascript/app.js"></script>
+
+	<title>The Goonies Trivia</title>
 </head>
 <body>
 
-  
-	<div class="container-fluid text-center">    
-		<div class="row content">
-    		<div class="col-sm-2 sidenav"></div>
-    		<div class="col-sm-8 text-left"></div>
+	<div class="header"></div>
+		<div class="container">
+			<h2>Hey You Guys! Test your knowledge on...</h2>
+				<form id="triviaForm" name="triviaForm">
 
-    		<div class="col-sm-2 sidenav"></div>
-   		</div>
-  	</div>
+	<!--Questions-->
+					<p>Who are the villains in the Goonies?</p>
+						<input id="radio" id="multi" name="question1" value="TheFratellis">The Fratellis</br>
+						<input id="radio" id="multi" name="question1" value="TheBoltons">The Boltons</br>
 
+					<p>What is the name of the pirate that inspires Mikey to go look for the treasure?</p>
+						<input id="radio" id="multi" name="question2" value="Blackbeard">Blackbeard</br>
+						<input id="radio" id="multi" name="question2" value="OneEyedWilly">One-Eyed Willy</br>
 
-
+	</form>
 
 </body>
 </html>

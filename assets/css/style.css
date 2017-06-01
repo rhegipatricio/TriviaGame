@@ -1,11 +1,25 @@
-
+  .header{
+    margin-top: 15%;
+  }
 
   body{
     background-image: url("../images/goonies_wallpaper.jpg");
     background-size: cover;
   }
-    
+  
+  h2{
+
+  }
+
+  p{
+    text-align: center;
+  }
+
+  #question1 {
+    text-align: center;
+  }
+
   /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 450px}
-     
+  
     
