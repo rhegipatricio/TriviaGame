@@ -2,16 +2,11 @@
 <html lang="en">
 <head>
 	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Bootstrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!--JQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<!--My Css-->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
 	<!--Javascript-->
 	<script src="assets/javascript/app.js"></script>
 
@@ -20,61 +15,79 @@
 <body>
 
 	<div class="header">
-		<h1>Hey You Guys! Test your knowledge on...</h1>
+		<h1>Hey You Guys! Test your knowledge on the best kids adventure movie ever</h1>
 	</div>
 
 	<br>
 	<br>
 
 		<div class="container">
-			<div class="startButton">
-				<button type="start" id="startButton">Start</button>
-			</div>	
-
-
-
-
-
-
+			<button id="start">Start</button>
+			<br>
+			<br>
 			<form id="triviaForm" name="triviaForm" onsubmit="return onSubmit()">
 				<div class="questions">
 	<!--Questions-->
 					<h2>Who are the villains in the Goonies?</h2>
 						<ul>
-							<input type="radio" id="multi" name="question1" value="a">The Fratellis</br>
-							<input type="radio" id="multi" name="question1" value="b">The Boltons</br>
-							<input type="radio" id="multi" name="question1" value="c">The Smiths</br>
-							<input type="radio" id="multi" name="question1" value="d">The Jacksons</br>
+							<input type="radio" id="multi" name="question1" value="right">The Fratellis</br>
+							<input type="radio" id="multi" name="question1" value="wrong">The Boltons</br>
+							<input type="radio" id="multi" name="question1" value="wrong">The Smiths</br>
+							<input type="radio" id="multi" name="question1" value="wrong">The Jacksons</br>
 						</ul>
 						<br>
 						<br>
 
 					<h2>What is the name of the pirate that inspires Mikey to go look for the treasure?</h2>
 						<ul>
-							<input type="radio" id="multi" name="question2" value="a">Blackbeard</br>
-							<input type="radio" id="multi" name="question2" value="b">One-Eyed Willy</br>
-							<input type="radio" id="multi" name="question2" value="c">Willy White</br>
-							<input type="radio" id="multi" name="question2" value="d">Dr. Wiley</br>
+							<input type="radio" id="multi" name="question2" value="wrong">Blackbeard</br>
+							<input type="radio" id="multi" name="question2" value="right">One-Eyed Willy</br>
+							<input type="radio" id="multi" name="question2" value="wrong">Willy White</br>
+							<input type="radio" id="multi" name="question2" value="wrong">Dr. Wiley</br>
 						</ul>
 						<br>
 						<br>
 
 					<h2>What is the name of the house keeper that Mikey's mom hires?</h2>
 						<ul>
-							<input type="radio" id="multi" name="question3" value="a">Rosie</br>
-							<input type="radio" id="multi" name="question3" value="b">Regina</br>
-							<input type="radio" id="multi" name="question3" value="c">Rosalita</br>
-							<input type="radio" id="multi" name="question3" value="d">Ellie</br>
+							<input type="radio" id="multi" name="question3" value="wrong">Rosie</br>
+							<input type="radio" id="multi" name="question3" value="wrong">Regina</br>
+							<input type="radio" id="multi" name="question3" value="right">Rosalita</br>
+							<input type="radio" id="multi" name="question3" value="wrong">Ellie</br>
+						</ul>
+						<br>
+						<br>
+
+					<h2>Why is Sloth most mad at his mom?</h2>
+						<ul>
+							<input type="radio" id="multi" name="question4" value="wrong">She keeps him in the basement</br>
+							<input type="radio" id="multi" name="question4" value="wrong">She loves his brothers more than him</br>
+							<input type="radio" id="multi" name="question4" value="wrong">She took away his Baby Ruth</br>
+							<input type="radio" id="multi" name="question4" value="right">She dropped him on his head when he was a baby</br>
+						</ul>
+						<br>
+						<br>
+
+					<h2>What does Mouth make Chunk do before he lets him into Mikey's house</h2>
+						<ul>
+							<input type="radio" id="multi" name="question5" value="wrong">Give him his Dominos pizza</br>
+							<input type="radio" id="multi" name="question5" value="right">The Truffle Shuffle</br>
+							<input type="radio" id="multi" name="question5" value="wrong">Fix the Michaelangelo statue he breaks</br>
+							<input type="radio" id="multi" name="question5" value="wrong">Lie to the cops about Gremlins</br>
 						</ul>
 						<br>
 						<br>
 				</div>
 				<div class="submitButton">
-					<button type="submit">DONE</button>
+					<button id="submit">DONE</button>
 				</div>
 
 			</form>
 		</div>
+
+	<!--My Css-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
 </body>
 </html>
