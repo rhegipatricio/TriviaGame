@@ -4,7 +4,11 @@ $(document).ready(function(){
 //questions are hidden when page loads
 	$("#triviaForm").hide();
 //to begin game
-	function start() {
+	};
+	$("#start").click(function(){
+		$("#triviaForm").show();
+		$("#start").hide();
+		$("#header").hide();
 		alert ("You've Started the game")
 		console.log ("Trial")
 
