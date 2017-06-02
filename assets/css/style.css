@@ -1,14 +1,21 @@
   .header{
     margin-top: 15%;
+    text-align: center;
+    color: white;
   }
 
   body{
     background-image: url("../images/goonies_wallpaper.jpg");
     background-size: cover;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
     text-align: center;
   }
   
+  button{
+    color: black;
+  }
+
   h2{
 
   }
